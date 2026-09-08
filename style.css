@@ -512,6 +512,10 @@ html {
     scroll-behavior: smooth;
 }
 
+img {
+ max-width : 120px;
+ height : auto;
+}
 /************************ NAVBAR ****************************/
 nav {
     display: flex;
