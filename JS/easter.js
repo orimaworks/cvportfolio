@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-    const photo = document.getElementById("photo-profil");
+    const photo = document.getElementById("logo-profil");
     let tapCount = 0; let tapTimer;
     if (photo) {
 
