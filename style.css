@@ -289,6 +289,7 @@ button {
 .diplomes {
     font-size: 0.9em;
     color: var(--primary);
+	margin-bottom : 15px; 
 }
 
 .diplomes i {
@@ -600,7 +601,7 @@ nav {
 
 /************************ END NAVBAR ***************************************/
 .mini_img {
- max-width : 90px;
+ max-width : 60px;
  height : auto;
 }
 
