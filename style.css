@@ -348,6 +348,10 @@ footer a {
     white-space: pre-wrap;
 }
 
+h1 {
+	margin-bottom : 10px;
+	}
+
 h2 {
     /* display: block; */
     max-width: 1200px;
