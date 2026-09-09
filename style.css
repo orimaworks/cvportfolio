@@ -100,7 +100,7 @@ button {
 .btn,
 .btn_code,
 .btn_back,
-.btn_download {
+.btn_cv {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,17 +157,17 @@ button {
     background-color: var(--grayaccenthover);
     text-decoration: none;
 }
-/*
-.btn_download {
-    background-color: blue;
+
+.btn_cv {
+    background-color: blueaccent;
     max-height: 25px;
     font-size: 0.8rem;
     color: white;
 }
 
-.btn_download:hover {
+.btn_cv:hover {
     cursor: pointer;
-    background-color: darkblue;
+    background-color: blueaccenthover;
     text-decoration: none;
 }
 
