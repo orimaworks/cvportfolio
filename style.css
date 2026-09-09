@@ -123,7 +123,10 @@ button {
     color: white;
 }
 
-.btn:hover {
+.btn:hover,
+.btn_code:hover,
+.btn_back:hover,
+.btn_cv:hover {
     background-color: var(--pinkaccenthover);
     cursor: pointer;
     text-decoration: none;
@@ -140,10 +143,7 @@ button {
 }
 
 .btn_code:hover {
-    cursor: pointer;
     background-color: var(--blueaccenthover);
-    color: white;
-    text-decoration: none;
 }
 
 .btn_back {
@@ -153,25 +153,18 @@ button {
 }
 
 .btn_back:hover {
-    cursor: pointer;
     background-color: var(--grayaccenthover);
-    text-decoration: none;
 }
 
 .btn_cv {
     background-color: var(--blueaccent);
     max-height: 25px;
-    font-size: 0.8rem;
     color: white;
 }
 
 .btn_cv:hover {
-    cursor: pointer;
     background-color: var(--blueaccenthover);
-    text-decoration: none;
 }
-
-*/
 
 .card {
     position: relative;
