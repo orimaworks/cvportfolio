@@ -307,6 +307,7 @@ button {
     /*alignement horizontal*/
     width: 100%;
     /* occupe toute la largeur disponible sur la page */
+	gap: 15px;
 }
 
 .display_column {
