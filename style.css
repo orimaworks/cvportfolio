@@ -884,7 +884,7 @@ p {
 
 .timeline-card {
     display: flex; /* test */
-    flex-direction: row;/* test */
+    flex-direction: column;/* test */
     background:white;
     padding:25px;
     border-radius:15px;
