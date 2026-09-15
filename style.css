@@ -299,7 +299,7 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* align-items: center; alignement vertical */
+    align-items: center; /* alignement vertical */
     align-self: center;
     /*alignement horizontal*/
     width: 100%;
@@ -311,7 +311,7 @@ button {
     flex-direction: column;
 }
 
-
+/*
 .disponibilite {
     margin-top: 5px;
     margin-bottom: 1%; 
@@ -319,7 +319,7 @@ button {
     text-align: center;
     color : black;
 }
-
+*/
 
 footer {
     display: flex;
@@ -873,9 +873,9 @@ p {
 */
 
 .timeline {
-    margin-top:60px;
+    margin-top:50px;
     border-left:4px solid var(--blueaccent);
-    padding-left:30px;
+    padding-left:20px;
 }
 
 
@@ -883,8 +883,8 @@ p {
 .timeline-date {
     font-weight:bold;
     color:var(--blueaccent);
-    margin-top: 30px;
-    margin-bottom:10px;
+    margin-top: 20px;
+    margin-bottom:20px;
 }
 
 .timeline-card {
@@ -897,11 +897,12 @@ p {
 }
 
 .timeline-card img {
-  margin-left: auto; /* test */
-  max-width: 60px;
+/*  margin-left: auto; /* test */
+  max-width: 80px;
   height: auto;
 }
 
+/*
 .project-preview {
     width: 100%;
     text-align:center;
@@ -909,7 +910,7 @@ p {
     background:white;
     border-radius:20px;
 }
-
+*/
 
 .logo {
 	display: flex;
