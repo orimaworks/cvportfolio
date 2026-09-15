@@ -943,7 +943,7 @@ p {
         }
         
         .kpi-card {
-            background: #ffffff;
+            background: var(--primary);
             border-radius: 8px;
             padding: 20px;
             min-width: calc(25% - 20px);
@@ -961,7 +961,7 @@ p {
         
         .kpi-title {
             font-size: 0.85rem;
-            color: var(--primary);
+            color: var(--secondary);
             text-transform: uppercase;
             letter-spacing: 0.5px;
             margin-bottom: 8px;
@@ -971,7 +971,7 @@ p {
         .kpi-value {
             font-size: 2rem;
             font-weight: 700;
-            color: var(--primary);
+            color: var(--secondary);
             margin-bottom: 6px;
         }
         
