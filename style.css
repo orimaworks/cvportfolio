@@ -174,7 +174,7 @@ button {
 
 .card,
 .stack-card {
-    background: var(--secondary);
+    background: white;
     padding: 1.5rem;
     border-radius: 8px;
     flex: 1 1 450px;
