@@ -176,10 +176,14 @@ button {
 .stack-card {
     background: white;
     padding: 1.5rem;
-    border-radius: 8px;
+    /*border-radius: 8px;*/
     flex: 1 1 450px;
     /* max-width : 450px; */
     transition: transform 0.2s ease;
+
+
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
 }
 
 
